@@ -127,7 +127,7 @@ void SaveData(s *s, int count){
 	fclose(fp);
 	printf("=>저장됨!\n");
 }
-
+//파일에 있는 내용을 읽는 함수
 int loadData(s *s){
 	int i=0;
 	FILE *fp;
