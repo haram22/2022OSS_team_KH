@@ -144,7 +144,7 @@ int loadData(s *s){
     }
     return 0;
 }
-
+// 방 번호를 입력해서 예약 목록을 확인하는 함수
 int findroom(s *s, int count){
     //char find[10];
     int find;
@@ -167,8 +167,8 @@ int findroom(s *s, int count){
     if(c==0) printf("=> 등록된 예약이 없음!\n\n");
     return 0;
 }
-
-int findtime(s *s, int count){//방번호를 입력받아서 예약 여부 목록을 보여주는 함수
+//사용하고자 하는 시간을 입력받아서 이용 가능한 방 
+int findtime(s *s, int count){
     int find_s[2];//입력하는 시작하려는 시간
     int find_e[2];//입력하는 끝내려는 시간
     
